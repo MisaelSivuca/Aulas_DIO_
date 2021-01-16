@@ -1,2 +1,5 @@
 # Aula_DIO_JS
-Aula de introdução ao JavaScript
+Neste repositório estou colocando conteúdo das aulas de Javascript da DIO - Digital Innovation One, me dedicando ao Bootcamp Avanade Angular Developer.
+
+Misael Nascimento, Janeiro de 2021.
+
