@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Página - 02 </title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="JS/aula_02.js"></script>
+    </head>
+
+    <body onload="funcaoLoad()">
+        <h1>Aula 02</h1>
+        <p id="txt_1">Observe este subtítulo ao clicar no botão abaixo</p>
+        <button type="button" onclick="meuBtn()">Clique aqui</button>
+
+        <p id="txt_2">Aqui estou uando DOM para redirecionar</p>
+        <button type="button" onclick="redirecionamento()">Clique aqui e vá para outra página</button>
+       
+        <p id="txt_3" onmouseover="trocaTxt()" onmouseout="destrocaTxt()">Passe o mouse aqui</p>
+
+        <p onmouseover="vaiTxt(this)" onmouseout="voltaTxt(this)">Passe também o mouse aqui</p>
+
+        <select onchange="funcaoChamge(this)">
+            <option value="1">VALOR 1</option>
+            <option value="2">VALOR 2</option>
+            <option value="3">VALOR 3</option>
+        </select>
+    </body>
+</html>
